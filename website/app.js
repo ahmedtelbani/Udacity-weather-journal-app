@@ -8,7 +8,7 @@ let newDate = d.getMonth()+1 + '.'+ d.getDate()+'.'+ d.getFullYear();
 
 // Personal API key for OpenWeathMap API
 let baseUrl = 'http://api.openweathermap.org/data/2.5/forecast?zip=';
-let apiKey = "&APPID=3d5cf2cb541fc95393f7b6be55443e7a";
+let apiKey = "&APPID=5aa4418f1aa9005cd054d9429d109992";
 
 // add EventListener to HTML DOM Element
 document.getElementById("generate").addEventListener("click", performAction);
